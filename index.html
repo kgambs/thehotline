@@ -1,0 +1,1561 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+
+<style>
+    body {
+      font-family: courier;
+      padding: 20px;
+
+    .box {
+      border: 1px dotted black;
+      padding: 45px;
+      margin: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      text-align: center;
+      min-width: 270px;
+      transition-timing-function: ease-in;
+    }
+
+
+      .buttsize {
+        height: 30px;
+        width: 30px;
+      }
+
+      #TGA {
+      display: none;
+
+    }
+
+    #senatorHarradine {
+      display: none;
+
+    }
+
+    #ECP {
+      display: none;
+
+    }
+
+    #NPSmain {
+      display: none;
+
+    }
+
+    #NPSlanding {
+      display: none;
+
+    }
+
+    #Privatisation {
+      display: none;
+
+    }
+
+    #parenting {
+      display: none;
+
+    }
+
+    #adoption {
+      display: none;
+
+    }
+
+    #abortion {
+      display: none;
+
+    }
+
+    #postpartum {
+      display: none;
+
+    }
+
+    #alanjoyce {
+      display: none;
+
+    }
+
+    #mensadvice {
+      display: none;
+
+    }
+
+    #NPSshort {
+      display: none;
+
+    }
+
+    #abortionAttempt2 {
+      display: none;
+
+    }
+
+    #postpartumAttempt2 {
+      display: none;
+
+    }
+
+    #qantasHold {
+      display: none;
+
+    }
+
+    #parenting_2 {
+      display: none;
+
+    }
+
+    #adoption_2 {
+      display: none;
+
+    }
+
+    #OH5 {
+      display: none;
+
+    }
+
+      #emilyStory {
+      display: none;
+
+    }
+
+    #OOO {
+      display: none;
+
+    }
+
+    #OH1 {
+      display: none;
+
+    }
+
+    #OH3 {
+      display: none;
+
+    }
+
+    #OH2 {
+      display: none;
+
+    }
+
+    #OH4 {
+      display: none;
+
+    }
+
+    #leaveAMessage {
+      display: none;
+
+    }
+
+    p.hi {
+      opacity:0;
+      transition:opacity 5000ms;
+    }
+      
+    p.bye {
+      opacity:1;
+}
+      
+      .buttons {
+display: flex;
+font-family: Helvetica;
+font-weight: 400;
+flex-wrap: wrap;
+justify-content: flex-start;
+margin: 0 auto;
+width: 310px;
+        min-width: 180px;
+}
+
+.button {
+border: 1px solid #303F3C;
+border-radius: 50px;
+color: #303F3C;
+cursor: pointer;
+display: inline-block;
+font-size: 26px;
+height: 80px;
+line-height: 80px;
+margin: 10px;
+text-align: center;
+width: 80px;
+-webkit-transition: all 0.3s;
+transition: all 0.3s;
+
+}
+
+}
+
+
+</style>
+
+
+      
+
+
+<body>
+    <div id="phone"></div>
+
+    <div id="intro" class="box">
+      <p>
+        Welcome to The Hotline, created by Kasey Gambling with audio design by Josie
+        Steele. The artists acknowledge the Wurunjeri People of the Kulin nation and
+        the Gadigal People of the Eora nation as the traditional owners of the land
+        on which this work was created. Sovereignty was never ceded. Content
+        warning: this work contains discussion of reproductive health, abortion and
+        pregnancy loss. <br /><br />
+        For more information please visit
+        <a href="https://www.thehoneytrap.net.au/thehotline" target="_blank"
+          >www.thehoneytrap.net.au/thehotline</a
+        >
+        <br />
+        <br />
+        For access to The Hotline, please press
+        <button id="button1" class="buttsize" onclick="showTGA();stopIntro();">
+          1
+        </button>
+      </p>
+      <br />
+      
+      <audio autoplay id="introAudio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_1.wav?v=1738553072986"
+          type="audio/mp3"
+        />
+      </audio>
+    </div>
+    
+    <!-- TGA -->
+    <section id="TGA" class="box">
+      <div class="buttons">
+      <div class="button" id="button2" onclick="showSenator();stopTGA1();">1</div>
+      <div class="button" id="button3" onclick="showECP();stopTGA2();">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div>
+      
+      <p>
+        Thank you for calling The Hotline.
+      </p>
+    
+    
+      <audio id="TGAAudio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_2.wav?v=1738554506422"
+          type="audio/mp3"
+        />
+      </audio>
+    </section>
+    
+    <!-- Senator Harradine -->
+    <section id="senatorHarradine" class="box">
+      <div class="buttons">
+      <div class="button" id="button4" onclick="showPrivatisation();stopSenator1();">1</div>
+      <div class="button" id="button5" onclick="showNPSlanding();stopSenator2();">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div>
+      <p>
+        We value your values. Our values align.
+      </p>
+      
+      <audio id="senatorAudio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_3a.wav?v=1738554507877"
+          type="audio/mp3"
+        />
+      </audio>
+    </section>
+    
+    
+    <!-- ECP -->
+    <section id="ECP" class="box">
+    <div class="buttons">
+      <div class="button" id="button6" onclick="showNPSmain();stopECP();">1</div>
+      <div class="button">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div>
+    <p>
+      The questionnaire is about to commence.
+      </p>
+      
+      <audio id="ECPAudio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_3b.wav?v=1738554514424"
+          type="audio/mp3"
+        />
+      </audio>
+    </section>
+    
+    <!-- NPS main button 7, 8, 9, 10 -->
+    <section id="NPSmain" class="box">
+      <div class="buttons">
+      <div class="button" id="button7" onclick="showParenting();stopNPSmain1();">1</div>
+      <div class="button" id="button8" onclick="showAdoption();stopNPSmain2();">2</div>
+      <div class="button" id="button9" onclick="showAbortion();stopNPSmain3();">3</div>
+      <div class="button" id="button10" onclick="showPostPartum();stopNPSmain4();">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div>
+      <p>
+        Thank you for calling the National Pregnancy Support helpline.
+      </p>
+    
+    
+      <audio id="NPSmainAudio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_7a.wav?v=1739598851763"
+        />
+      </audio>
+    </section>
+    
+    <!-- Privatisation button 11, 12  -->
+    <section id="Privatisation" class="box">
+    <div class="buttons">
+      <div class="button" id="button11" onclick="showAlanJoyce();stopPrivatisation1();">1</div>
+      <div class="button" id="button12" onclick="showNPSlanding2();stopPrivatisation2();">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div>
+      <p>
+        Thank you. The Hotline has now been privatised.
+      </p>
+    
+    
+      <audio id="PrivatisationAudio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_4a.wav?v=1739698983190"
+        />
+      </audio>
+    </section>
+    
+    
+    <!-- NPS landing button 13, 14 -->
+    <section id="NPSlanding" class="box">
+    <div class="buttons">
+      <div class="button" id="button13" onclick="showNPSmain2();stopNPSlanding1();">1</div>
+      <div class="button" id="button14" onclick="showMensadvice();stopNPSlanding2();">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div>  
+     <p>
+       <em>"It's not advocacy, it's counselling"</em>
+      </p>
+    
+    
+    <audio id="NPSlandingAudio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_4b.wav?v=1740538222825"
+        />
+      </audio>
+    </section>
+    
+    <!-- 8a parenting button 15, 16 -->
+    <section id="parenting" class="box">
+    <div class="buttons">
+      <div class="button" id="button15" onclick="showAdoption2();stopParenting1();">1</div>
+      <div class="button" id="button16" onclick="showNPSshort();stopParenting2();">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div>   
+    <p>
+      Unsure you'll be a good parent?
+      </p>
+    
+      
+      <audio id="parentingAudio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_8a.wav?v=1740535664827"
+        />
+      </audio>
+    </section>
+    
+    
+    <!-- 8b adoption button 17, 18  -->
+    <section id="adoption" class="box">
+      <div class="buttons">
+      <div class="button" id="button17" onclick="showParenting2();stopAdoption1();">1</div>
+      <div class="button" id="button18" onclick="showNPSshort2();stopAdoption2();">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div> 
+      <p>
+        Don’t think you have the money to raise a child?
+      </p>
+    
+      
+      <audio id="adoptionAudio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_8b.wav?v=1740536113521"
+        />
+      </audio>
+    </section>
+    
+    
+    
+    <!-- 8c abortion button 19, 20-->
+    <section id="abortion" class="box">
+    <div class="buttons">
+      <div class="button" id="button19" onclick="showNPSshort3();stopAbortion1();">1</div>
+      <div class="button" id="button20" onclick="showAbortionAttempt2();stopAbortion2();">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div> 
+      <p>
+        Something went wrong. Please try again.
+      </p>
+      
+    
+      <audio id="abortionAudio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_8c.wav?v=1740536331516"
+        />
+      </audio>
+    </section>
+    
+    
+    
+    <!-- 8d postpartum button 21, 22-->
+    <section id="postpartum" class="box">
+    <div class="buttons">
+      <div class="button" id="button21" onclick="showPostpartumAttempt2();stopPostpartum1();">1</div>
+      <div class="button" id="button22" onclick="showNPSshort4();stopPostpartum2();">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div> 
+      <p>
+        If your baby needs emergency attention, please hang up and dial 000.
+      </p>
+      
+    
+      <audio id="postpartumAudio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_8d.wav?v=1740536601830"
+        />
+      </audio>
+    </section>
+    
+    
+    
+    <!-- 5a Alan Joyce button 23, 24  -->
+    <section id="alanjoyce" class="box">
+    <div class="buttons">
+      <div class="button" id="button23" onclick="showQantasHold();stopAlanJoyce1();">1</div>
+      <div class="button" id="button24" onclick="showNPSlanding3();stopAlanJoyce2();">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div> 
+      <p>
+        Thank you for calling, Alan Joyce.
+      </p>
+    
+      
+      <audio id="alanjoyceAudio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_5a.wav?v=1740537593288"
+        />
+      </audio>
+    </section>
+    
+    
+    
+    <!-- 7b Men's advice button 25 -->
+    <section id="mensadvice" class="box">
+    <div class="buttons">
+      <div class="button" id="button25" onclick="showNPSshort5();stopMensAdvice();">1</div>
+      <div class="button">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div> 
+      <p>
+        Hey guys...
+      </p>
+    
+      <audio id="mensadviceAudio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_7b.wav?v=1740538588814"
+        />
+      </audio>
+    </section>
+    
+    
+    
+    <!-- 9 NPS short menu button 27, 28 29 -->
+    <section id="NPSshort" class="box">
+    <div class="buttons">
+      <div class="button" id="button27" onclick="showParenting_2();stopNPSshort1();">1</div>
+      <div class="button" id="button28" onclick="showAdoption_2();stopNPSshort2();">2</div>
+      <div class="button" id="button29" onclick="showOH5();stopNPSshort3();">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div> 
+      <p>
+        Thank you for calling the National Persuasive Support helpline.
+      </p>
+      
+      <audio id="NPSshortAudio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_9.wav?v=1740540192409"
+        />
+      </audio>
+    </section>
+    
+    
+    
+    <!-- 10 Abortion attempt2 button 30, 31  -->
+    <section id="abortionAttempt2" class="box">
+    <div class="buttons">
+      <div class="button" id="button30" onclick="showNPSshort6();stopAbortionAttempt2_1();">1</div>
+      <div class="button" id="button31" onclick="showMensadvice2();stopAbortionAttempt2_2();">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div> 
+      <p>
+        Have you heard about the 'Love Them Both' movement?
+      </p>
+      
+      <audio id="abortionAttempt2Audio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_10.wav?v=1740736764108"
+        />
+      </audio>
+    </section>
+    
+    
+    
+    <!-- 11 Postpartum attempt2 button 32, 33  -->
+    <section id="postpartumAttempt2" class="box">
+    <div class="buttons">
+      <div class="button" id="button32" onclick="showEmilyStory();stopPostpartumAttempt2_1();">1</div>
+      <div class="button" id="button33" onclick="showNPSshort7();stopPostpartumAttempt2_2();">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div> 
+      <p>
+        You're doing great mama!
+      </p>
+      
+      <audio id="postpartumAttempt2Audio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_11.wav?v=1740793686015"
+        />
+      </audio>
+    </section>
+    
+    
+    
+    <!-- 6a Qantas hold button 34-->
+    <section id="qantasHold" class="box">
+    <div class="buttons">
+      <div class="button" id="button34" onclick="showNPSlanding4();stopQantasHold();">1</div>
+      <div class="button">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div> 
+      <p>
+        Thank you for holding.
+      </p>
+      
+      <audio id="qantasHoldAudio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_6a.wav?v=1740794680973"
+        />
+      </audio>
+    </section>
+    
+    
+    <!-- 15a Parenting_2 button 35, 36-->
+    <section id="parenting_2" class="box">
+    <div class="buttons">
+      <div class="button" id="button35" onclick="showAdoption_2_2();stopParenting_2_1();">1</div>
+      <div class="button" id="button36" onclick="showOOO();stopParenting_2_2();">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div> 
+      <p>
+        You've become the perfect parent!
+      </p>
+      
+      <audio id="parenting_2Audio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_15a.wav?v=1740798237111"
+        />
+      </audio>
+    </section>
+    
+    
+    
+    <!-- 15b Adoption_2 button 37, 38-->
+    <section id="adoption_2" class="box">
+    <div class="buttons">
+      <div class="button" id="button37" onclick="showParenting_2_2();stopAdoption_2_1();">1</div>
+      <div class="button" id="button38" onclick="showOH1();stopAdoption_2_2();">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div> 
+      <p>
+        Imagine all the things you'd be missing out <br>on if you didn't become a parent!
+      </p>
+      
+    
+    
+      <audio id="adoption_2Audio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_15b.wav?v=1740798479671"
+        />
+      </audio>
+    </section>
+    
+    
+    
+    <!-- 21 OH5, luteal, button 39 -->
+    <section id="OH5" class="box">
+    <div class="buttons">
+      <div class="button" id="button39" onclick="showLeaveAMessage();stopOH5();">1</div>
+      <div class="button">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div> 
+      <p>
+        ...
+      </p>
+    
+      
+      <audio id="OH5Audio">
+        <source
+          src="https://cdn.glitch.me/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_21.wav?v=1740799273079"
+        />
+      </audio>
+    </section>
+    
+    
+    
+    <!-- 12 Emily Story, button 40 -->
+    <section id="emilyStory" class="box">
+    <div class="buttons">
+      <div class="button" id="button40" onclick="showLeaveAMessage2();stopEmilyStory();">1</div>
+      <div class="button">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div> 
+      <p>
+        ...
+      </p>
+    
+      
+      <audio id="emilyStoryAudio">
+        <source
+          src="https://cdn.glitch.me/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_12.wav?v=1740801779411"
+        />
+      </audio>
+    </section>
+    
+    <!-- 17 Out of Option button 41, 42, 43 -->
+    <section id="OOO" class="box">
+    <div class="buttons">
+      <div class="button" id="button41" onclick="showOH3();stopOOO1();">1</div>
+      <div class="button" id="button42" onclick="showOH2();stopOOO2();">2</div>
+      <div class="button" id="button43" onclick="showOH4();stopOOO3();">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div> 
+      <p>
+        You are out of options.
+      </p>
+      
+      
+      <audio id="OOOAudio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_17.wav?v=1740803692762"
+        />
+      </audio>
+    </section>
+    
+    
+    
+    <!-- 16 Oral history 1 - Kam button 44 -->
+    <section id="OH1" class="box">
+    <div class="buttons">
+      <div class="button" id="button44" onclick="showLeaveAMessage3();stopOH1();">1</div>
+      <div class="button">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div> 
+      <p>
+        ...
+      </p>
+      
+      
+      <audio id="OH1Audio">
+        <source
+          src="https://cdn.glitch.me/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_16.wav?v=1741310179172"
+        />
+      </audio>
+    </section>
+    
+    
+    
+    <!-- 19 Oral history 3 - Nadia button 45 -->
+    <section id="OH3" class="box">
+    <div class="buttons">
+      <div class="button" id="button45" onclick="showLeaveAMessage4();stopOH3();">1</div>
+      <div class="button">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div> 
+      <p>
+        ...
+      </p>  
+    
+      
+      <audio id="OH3Audio">
+        <source
+          src="https://cdn.glitch.me/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_19.wav?v=1741311500021"
+        />
+      </audio>
+    </section>
+    
+    
+    
+    <!-- 18 Oral history 2 - Libby button 46 -->
+    <section id="OH2" class="box">
+    <div class="buttons">
+      <div class="button" id="button46" onclick="showLeaveAMessage5();stopOH2();">1</div>
+      <div class="button">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div> 
+      <p>
+        ...
+      </p> 
+      
+      
+      <audio id="OH2Audio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_18.wav?v=1741311934655"
+        />
+      </audio>
+    </section>
+    
+    <!-- 20 Oral history 4 - Peri button 47 -->
+    <section id="OH4" class="box">
+    <div class="buttons">
+      <div class="button" id="button47" onclick="showLeaveAMessage6();stopOH4();">1</div>
+      <div class="button">2</div>
+      <div class="button">3</div>
+      <div class="button">4</div>
+      <div class="button">5</div>
+      <div class="button">6</div>
+      <div class="button">7</div>
+      <div class="button">8</div>
+      <div class="button">9</div>
+      <div class="button">*</div>
+      <div class="button">0</div>
+      <div class="button">#</div>
+    </div> 
+      <p>
+        ...
+      </p> 
+    
+      
+      <audio id="OH4Audio">
+        <source
+          src="https://cdn.glitch.me/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_20.wav?v=1741311974909"
+        />
+      </audio>
+    </section>
+    
+    
+    
+    <!-- 13 Leave a message -->
+    <section id="leaveAMessage" class="box">
+      <p>
+        <a href="mailto:info@thehoneytrap.net.au">Send email</a>
+        <br />
+        <br />
+        Thank you for your call.
+        <br />
+      </p>
+      <audio id="leaveAMessageAudio">
+        <source
+          src="https://cdn.glitch.global/fe0e155c-3eeb-4788-a3ac-66633004073b/The%20Hotline_23_13.wav?v=1741310786075"
+        />
+      </audio>
+    </section>
+   
+</body>
+
+<script>
+    // working 13:03 7/3/25 - done!
+  
+    //js starts here 3:10pm 1/3/ 25- all working
+  
+     // setTimeout(function () {
+     // document.getElementById("easeIn").className = "bye";
+   // }, 29000);
+    
+    setTimeout(function () {
+      document.getElementById("hideMe").className = "bye";
+    }, 29000);
+  
+    function showTGA() {
+      div = document.getElementById("TGA");
+      div.style.display = "block";
+      div = document.getElementById("intro");
+      div.style.display = "none";
+    }
+  
+    // document.getElementById("TGA").onclick = function () {
+    // document.getElementById("TGA").style.display = "none";
+    //  };
+  
+    function showSenator() {
+      div = document.getElementById("senatorHarradine");
+      div.style.display = "block";
+      div = document.getElementById("TGA");
+      div.style.display = "none";
+    }
+  
+    function showECP() {
+      div = document.getElementById("ECP");
+      div.style.display = "block";
+      div = document.getElementById("TGA");
+      div.style.display = "none";
+    }
+  
+    function showNPSmain() {
+      div = document.getElementById("NPSmain");
+      div.style.display = "block";
+      div = document.getElementById("ECP");
+      div.style.display = "none";
+    }
+  
+    function showPrivatisation() {
+      div = document.getElementById("Privatisation");
+      div.style.display = "block";
+      div = document.getElementById("senatorHarradine");
+      div.style.display = "none";
+    }
+  
+    function showNPSlanding() {
+      div = document.getElementById("NPSlanding");
+      div.style.display = "block";
+      div = document.getElementById("senatorHarradine");
+      div.style.display = "none";
+    }
+  
+    function showParenting() {
+      div = document.getElementById("parenting");
+      div.style.display = "block";
+      div = document.getElementById("NPSmain");
+      div.style.display = "none";
+    }
+  
+    function showAdoption() {
+      div = document.getElementById("adoption");
+      div.style.display = "block";
+      div = document.getElementById("NPSmain");
+      div.style.display = "none";
+    }
+  
+    function showAbortion() {
+      div = document.getElementById("abortion");
+      div.style.display = "block";
+      div = document.getElementById("NPSmain");
+      div.style.display = "none";
+    }
+  
+    function showPostPartum() {
+      div = document.getElementById("postpartum");
+      div.style.display = "block";
+      div = document.getElementById("NPSmain");
+      div.style.display = "none";
+    }
+  
+    function showAlanJoyce() {
+      div = document.getElementById("alanjoyce");
+      div.style.display = "block";
+      div = document.getElementById("Privatisation");
+      div.style.display = "none";
+    }
+  
+    function showNPSlanding2() {
+      div = document.getElementById("NPSlanding");
+      div.style.display = "block";
+      div = document.getElementById("Privatisation");
+      div.style.display = "none";
+    }
+  
+    function showNPSmain2() {
+      div = document.getElementById("NPSmain");
+      div.style.display = "block";
+      div = document.getElementById("NPSlanding");
+      div.style.display = "none";
+    }
+  
+    function showMensadvice() {
+      div = document.getElementById("mensadvice");
+      div.style.display = "block";
+      div = document.getElementById("NPSlanding");
+      div.style.display = "none";
+    }
+  
+    function showAdoption2() {
+      div = document.getElementById("adoption");
+      div.style.display = "block";
+      div = document.getElementById("parenting");
+      div.style.display = "none";
+    }
+  
+    function showNPSshort() {
+      div = document.getElementById("NPSshort");
+      div.style.display = "block";
+      div = document.getElementById("parenting");
+      div.style.display = "none";
+    }
+  
+    function showParenting2() {
+      div = document.getElementById("parenting");
+      div.style.display = "block";
+      div = document.getElementById("adoption");
+      div.style.display = "none";
+    }
+  
+    function showNPSshort2() {
+      div = document.getElementById("NPSshort");
+      div.style.display = "block";
+      div = document.getElementById("adoption");
+      div.style.display = "none";
+    }
+  
+    function showNPSshort3() {
+      div = document.getElementById("NPSshort");
+      div.style.display = "block";
+      div = document.getElementById("abortion");
+      div.style.display = "none";
+    }
+  
+    function showAbortionAttempt2() {
+      div = document.getElementById("abortionAttempt2");
+      div.style.display = "block";
+      div = document.getElementById("abortion");
+      div.style.display = "none";
+    }
+  
+    function showPostpartumAttempt2() {
+      div = document.getElementById("postpartumAttempt2");
+      div.style.display = "block";
+      div = document.getElementById("postpartum");
+      div.style.display = "none";
+    }
+  
+    function showNPSshort4() {
+      div = document.getElementById("NPSshort");
+      div.style.display = "block";
+      div = document.getElementById("postpartum");
+      div.style.display = "none";
+    }
+  
+    function showQantasHold() {
+      div = document.getElementById("qantasHold");
+      div.style.display = "block";
+      div = document.getElementById("alanjoyce");
+      div.style.display = "none";
+    }
+  
+    function showNPSlanding3() {
+      div = document.getElementById("NPSlanding");
+      div.style.display = "block";
+      div = document.getElementById("alanjoyce");
+      div.style.display = "none";
+    }
+  
+    function showNPSshort5() {
+      div = document.getElementById("NPSshort");
+      div.style.display = "block";
+      div = document.getElementById("mensadvice");
+      div.style.display = "none";
+    }
+  
+    function showParenting_2() {
+      div = document.getElementById("parenting_2");
+      div.style.display = "block";
+      div = document.getElementById("NPSshort");
+      div.style.display = "none";
+    }
+  
+    function showAdoption_2() {
+      div = document.getElementById("adoption_2");
+      div.style.display = "block";
+      div = document.getElementById("NPSshort");
+      div.style.display = "none";
+    }
+  
+    function showOH5() {
+      div = document.getElementById("OH5");
+      div.style.display = "block";
+      div = document.getElementById("NPSshort");
+      div.style.display = "none";
+    }
+  
+    function showNPSshort6() {
+      div = document.getElementById("NPSshort");
+      div.style.display = "block";
+      div = document.getElementById("abortionAttempt2");
+      div.style.display = "none";
+    }
+  
+    function showMensadvice2() {
+      div = document.getElementById("mensadvice");
+      div.style.display = "block";
+      div = document.getElementById("abortionAttempt2");
+      div.style.display = "none";
+    }
+  
+    function showEmilyStory() {
+      div = document.getElementById("emilyStory");
+      div.style.display = "block";
+      div = document.getElementById("postpartumAttempt2");
+      div.style.display = "none";
+    }
+  
+    function showNPSshort7() {
+      div = document.getElementById("NPSshort");
+      div.style.display = "block";
+      div = document.getElementById("postpartumAttempt2");
+      div.style.display = "none";
+    }
+  
+    function showNPSlanding4() {
+      div = document.getElementById("NPSlanding");
+      div.style.display = "block";
+      div = document.getElementById("qantasHold");
+      div.style.display = "none";
+    }
+  
+    function showAdoption_2_2() {
+      div = document.getElementById("adoption_2");
+      div.style.display = "block";
+      div = document.getElementById("parenting_2");
+      div.style.display = "none";
+    }
+  
+    function showOOO() {
+      div = document.getElementById("OOO");
+      div.style.display = "block";
+      div = document.getElementById("parenting_2");
+      div.style.display = "none";
+    }
+  
+    function showParenting_2_2() {
+      div = document.getElementById("parenting_2");
+      div.style.display = "block";
+      div = document.getElementById("adoption_2");
+      div.style.display = "none";
+    }
+  
+    function showOH1() {
+      div = document.getElementById("OH1");
+      div.style.display = "block";
+      div = document.getElementById("adoption_2");
+      div.style.display = "none";
+    }
+  
+    function showLeaveAMessage() {
+      div = document.getElementById("leaveAMessage");
+      div.style.display = "block";
+      div = document.getElementById("OH5");
+      div.style.display = "none";
+    }
+  
+    function showLeaveAMessage2() {
+      div = document.getElementById("leaveAMessage");
+      div.style.display = "block";
+      div = document.getElementById("emilyStory");
+      div.style.display = "none";
+    }
+  
+    function showOH3() {
+      div = document.getElementById("OH3");
+      div.style.display = "block";
+      div = document.getElementById("OOO");
+      div.style.display = "none";
+    }
+  
+    function showOH2() {
+      div = document.getElementById("OH2");
+      div.style.display = "block";
+      div = document.getElementById("OOO");
+      div.style.display = "none";
+    }
+  
+    function showOH4() {
+      div = document.getElementById("OH4");
+      div.style.display = "block";
+      div = document.getElementById("OOO");
+      div.style.display = "none";
+    }
+  
+    function showLeaveAMessage3() {
+      div = document.getElementById("leaveAMessage");
+      div.style.display = "block";
+      div = document.getElementById("OH1");
+      div.style.display = "none";
+    }
+  
+    function showLeaveAMessage4() {
+      div = document.getElementById("leaveAMessage");
+      div.style.display = "block";
+      div = document.getElementById("OH3");
+      div.style.display = "none";
+    }
+  
+    function showLeaveAMessage5() {
+      div = document.getElementById("leaveAMessage");
+      div.style.display = "block";
+      div = document.getElementById("OH2");
+      div.style.display = "none";
+    }
+  
+    function showLeaveAMessage6() {
+      div = document.getElementById("leaveAMessage");
+      div.style.display = "block";
+      div = document.getElementById("OH4");
+      div.style.display = "none";
+    }
+  
+    function stopIntro() {
+      document.getElementById("introAudio").pause();
+      document.getElementById("TGAAudio").play();
+    }
+  
+    function stopTGA1() {
+      document.getElementById("TGAAudio").pause();
+      document.getElementById("senatorAudio").play();
+    }
+  
+    function stopTGA2() {
+      document.getElementById("TGAAudio").pause();
+      document.getElementById("ECPAudio").play();
+    }
+  
+    function stopECP() {
+      document.getElementById("ECPAudio").pause();
+      document.getElementById("NPSmainAudio").play();
+    }
+  
+    function stopSenator1() {
+      document.getElementById("senatorAudio").pause();
+      document.getElementById("PrivatisationAudio").play();
+    }
+  
+    function stopSenator2() {
+      document.getElementById("senatorAudio").pause();
+      document.getElementById("NPSlandingAudio").play();
+    }
+  
+    function stopNPSmain1() {
+      document.getElementById("NPSmainAudio").pause();
+      document.getElementById("parentingAudio").play();
+    }
+  
+    function stopNPSmain2() {
+      document.getElementById("NPSmainAudio").pause();
+      document.getElementById("adoptionAudio").play();
+    }
+  
+    function stopNPSmain3() {
+      document.getElementById("NPSmainAudio").pause();
+      document.getElementById("abortionAudio").play();
+    }
+  
+    function stopNPSmain4() {
+      document.getElementById("NPSmainAudio").pause();
+      document.getElementById("postpartumAudio").play();
+    }
+  
+    function stopPrivatisation1() {
+      document.getElementById("PrivatisationAudio").pause();
+      document.getElementById("alanjoyceAudio").play();
+    }
+  
+    function stopPrivatisation2() {
+      document.getElementById("PrivatisationAudio").pause();
+      document.getElementById("NPSlandingAudio").play();
+    }
+  
+    function stopNPSlanding1() {
+      document.getElementById("NPSlandingAudio").pause();
+      document.getElementById("NPSmainAudio").play();
+    }
+  
+    function stopNPSlanding2() {
+      document.getElementById("NPSlandingAudio").pause();
+      document.getElementById("mensadviceAudio").play();
+    }
+  
+    function stopParenting1() {
+      document.getElementById("parentingAudio").pause();
+      document.getElementById("adoptionAudio").play();
+    }
+  
+    function stopParenting2() {
+      document.getElementById("parentingAudio").pause();
+      document.getElementById("NPSshortAudio").play();
+    }
+  
+    function stopAdoption1() {
+      document.getElementById("adoptionAudio").pause();
+      document.getElementById("parentingAudio").play();
+    }
+  
+    function stopAdoption2() {
+      document.getElementById("adoptionAudio").pause();
+      document.getElementById("NPSshortAudio").play();
+    }
+  
+    function stopAbortion1() {
+      document.getElementById("abortionAudio").pause();
+      document.getElementById("NPSshortAudio").play();
+    }
+  
+    function stopAbortion2() {
+      document.getElementById("abortionAudio").pause();
+      document.getElementById("abortionAttempt2Audio").play();
+    }
+  
+    function stopPostpartum1() {
+      document.getElementById("postpartumAudio").pause();
+      document.getElementById("postpartumAttempt2Audio").play();
+    }
+  
+    function stopPostpartum2() {
+      document.getElementById("postpartumAudio").pause();
+      document.getElementById("NPSshortAudio").play();
+    }
+  
+    function stopAlanJoyce1() {
+      document.getElementById("alanjoyceAudio").pause();
+      document.getElementById("qantasHoldAudio").play();
+    }
+  
+    function stopAlanJoyce2() {
+      document.getElementById("alanjoyceAudio").pause();
+      document.getElementById("NPSlandingAudio").play();
+    }
+  
+    function stopMensAdvice() {
+      document.getElementById("mensadviceAudio").pause();
+      document.getElementById("NPSshortAudio").play();
+    }
+  
+    function stopNPSshort1() {
+      document.getElementById("NPSshortAudio").pause();
+      document.getElementById("parenting_2Audio").play();
+    }
+  
+    function stopNPSshort2() {
+      document.getElementById("NPSshortAudio").pause();
+      document.getElementById("adoption_2Audio").play();
+    }
+  
+    function stopNPSshort3() {
+      document.getElementById("NPSshortAudio").pause();
+      document.getElementById("OH5Audio").play();
+    }
+  
+    function stopAbortionAttempt2_1() {
+      document.getElementById("abortionAttempt2Audio").pause();
+      document.getElementById("NPSshortAudio").play();
+    }
+  
+    function stopAbortionAttempt2_2() {
+      document.getElementById("abortionAttempt2Audio").pause();
+      document.getElementById("mensadviceAudio").play();
+    }
+  
+    function stopPostpartumAttempt2_1() {
+      document.getElementById("postpartumAttempt2Audio").pause();
+      document.getElementById("emilyStoryAudio").play();
+    }
+  
+    function stopPostpartumAttempt2_2() {
+      document.getElementById("postpartumAttempt2Audio").pause();
+      document.getElementById("NPSshortAudio").play();
+    }
+  
+    function stopQantasHold() {
+      document.getElementById("qantasHoldAudio").pause();
+      document.getElementById("NPSlandingAudio").play();
+    }
+  
+    function stopParenting_2_1() {
+      document.getElementById("parenting_2Audio").pause();
+      document.getElementById("adoption_2Audio").play();
+    }
+  
+    function stopParenting_2_2() {
+      document.getElementById("parenting_2Audio").pause();
+      document.getElementById("OOOAudio").play();
+    }
+  
+    function stopAdoption_2_1() {
+      document.getElementById("adoption_2Audio").pause();
+      document.getElementById("parenting_2Audio").play();
+    }
+  
+    function stopAdoption_2_2() {
+      document.getElementById("adoption_2Audio").pause();
+      document.getElementById("OH1Audio").play();
+    }
+  
+    function stopOH5() {
+      document.getElementById("OH5Audio").pause();
+      document.getElementById("leaveAMessageAudio").play();
+    }
+  
+    function stopEmilyStory() {
+      document.getElementById("emilyStoryAudio").pause();
+      document.getElementById("leaveAMessageAudio").play();
+    }
+  
+    function stopOOO1() {
+      document.getElementById("OOOAudio").pause();
+      document.getElementById("OH3Audio").play();
+    }
+  
+    function stopOOO2() {
+      document.getElementById("OOOAudio").pause();
+      document.getElementById("OH2Audio").play();
+    }
+  
+    function stopOOO3() {
+      document.getElementById("OOOAudio").pause();
+      document.getElementById("OH4Audio").play();
+    }
+  
+    function stopOH1() {
+      document.getElementById("OH1Audio").pause();
+      document.getElementById("leaveAMessageAudio").play();
+    }
+  
+    function stopOH3() {
+      document.getElementById("OH3Audio").pause();
+      document.getElementById("leaveAMessageAudio").play();
+    }
+  
+    function stopOH2() {
+      document.getElementById("OH2Audio").pause();
+      document.getElementById("leaveAMessageAudio").play();
+    }
+  
+    function stopOH4() {
+      document.getElementById("OH4Audio").pause();
+      document.getElementById("leaveAMessageAudio").play();
+    }
+  
+    //   1/3/25 3:36pm all working. Working on - start of Adoption2 - js required - likely - showParenting_2_2?
+  </script>
+
+</html>
